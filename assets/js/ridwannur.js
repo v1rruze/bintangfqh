@@ -942,13 +942,6 @@ function themeOption(){
         $('.color-scheme li a').removeClass('active');
         $(this).addClass('active');
     });
-
-    $('.color-scheme li .light-scheme').click(function() {
-        $("body").removeClass('dark-arshia');
-        $('.color-scheme li a').removeClass('active');
-        $(this).addClass('active');
-    });
-
     $('.theme-skin li .flat-skin').click(function() {
         $("body").removeClass('neo-arshia');
         $('.theme-skin li a').removeClass('active');
